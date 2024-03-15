@@ -4,6 +4,7 @@ import Decore from "../../assets/images/Decore.svg";
 import { HeroContent } from "../../components/HeroContent/HeroContent";
 import { Services } from "../../components/Services/Services";
 import { Destinations } from "../../components/Destinations/Destinations";
+import { BookTrip } from "../../components/BookTrip/BookTrip";
 
 export const Home = () => {
   return (
@@ -13,6 +14,7 @@ export const Home = () => {
         <HeroContent />
         <Services />
         <Destinations />
+        <BookTrip />
       </Layout>
     </div>
   );
