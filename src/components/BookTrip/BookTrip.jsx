@@ -11,7 +11,7 @@ export const BookTrip = () => {
             Easy and Fast
           </h2>
           <h3 className="font-bold font-volkhov text-5xl text-[#14183E] mt-5 w-[511px]">
-            Book your next trip in 3 easy steps
+            Book Your Next Trip In 3 Easy Steps
           </h3>
           <div className="mt-5">
             {Steps.map((step, index) => (

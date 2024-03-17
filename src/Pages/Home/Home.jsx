@@ -5,6 +5,9 @@ import { HeroContent } from "../../components/HeroContent/HeroContent";
 import { Services } from "../../components/Services/Services";
 import { Destinations } from "../../components/Destinations/Destinations";
 import { BookTrip } from "../../components/BookTrip/BookTrip";
+import { Testimonials } from "../../components/Testimonials/Testimonials";
+import { Logos } from "../../components/Logos/Logos";
+import { SuscribeSection } from "../../components/SuscribeSection/SuscribeSection";
 
 export const Home = () => {
   return (
@@ -15,6 +18,9 @@ export const Home = () => {
         <Services />
         <Destinations />
         <BookTrip />
+        <Testimonials />
+        <Logos />
+        <SuscribeSection />
       </Layout>
     </div>
   );
