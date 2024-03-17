@@ -8,6 +8,7 @@ import { BookTrip } from "../../components/BookTrip/BookTrip";
 import { Testimonials } from "../../components/Testimonials/Testimonials";
 import { Logos } from "../../components/Logos/Logos";
 import { SuscribeSection } from "../../components/SuscribeSection/SuscribeSection";
+import { Footer } from "../../components/Footer/Footer";
 
 export const Home = () => {
   return (
@@ -21,6 +22,7 @@ export const Home = () => {
         <Testimonials />
         <Logos />
         <SuscribeSection />
+        <Footer />
       </Layout>
     </div>
   );
